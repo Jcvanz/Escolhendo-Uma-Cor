@@ -1,9 +1,9 @@
-const container = document.querySelector('content');
+const container = document.querySelector('.container');
 const color = document.querySelector('input');
 
 const defaultColor = '#fff';
-content.style.backgroundColor = `${defaultColor}`;
+container.style.backgroundColor = `${defaultColor}`;
 
 function mudarCor(){
-    content.style.backgroundColor = `${color.value}`
+    container.style.backgroundColor = `${color.value}`;
 }
