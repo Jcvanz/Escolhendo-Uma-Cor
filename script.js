@@ -7,5 +7,3 @@ content.style.backgroundColor = `${defaultColor}`;
 function mudarCor(){
     content.style.backgroundColor = `${color.value}`
 }
-
-console.log(mudarCor)
